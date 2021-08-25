@@ -30,7 +30,7 @@ def predict():
         pred2 = cv_score.transform(data)
         y_pred2 = model_score.predict(pred2)
 
-        return render_template('index.html', prediction = [message1, y_pred2])
+        return render_template('index2.html', prediction = [message1, y_pred2])
 
 if __name__ == '__main__':
     app.run(debug=True)

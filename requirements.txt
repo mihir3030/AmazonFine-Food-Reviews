@@ -13,6 +13,4 @@ gensim==3.8.3
 pattern==3.6
 nltk>=3.4
 wordcloud==1.8.1
-re
-os
-joblib
+joblib==1.0.1
